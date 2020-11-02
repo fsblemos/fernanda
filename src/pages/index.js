@@ -23,7 +23,7 @@ const Header = styled.header`
 
   @keyframes flicker {
     0% {
-      text-shadow: 2px 4px 5px black;
+      text-shadow: 2px 4px 5px var(--base-color--bg);
     }
     100% {
       text-shadow: 2px 4px 5px var(--title-shadow-color);

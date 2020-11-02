@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
+  --base-color--white: #f4f5fb;
+  --base-color--black: #01000D;
   --base-color--purple: #6A6EEC;
   --base-color--pink: #A20167;
   --base-color--pink-light: #C74D7E;
-  --base-color--bg: #01000D;
-  --base-color--color: #E2E3FF;
   --base-color--primary: var(--base-color--purple);
   --base-color--secondary: var(--base-color--pink);
+  --base-color--bg: var(--base-color--black);
+  --base-color--color: var(--base-color--white);
 }
 
 body {
@@ -21,4 +23,11 @@ body {
 
 a {
   color: var(--base-color--primary);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --base-color--color: var(--base-color--black);
+    --base-color--bg: var(--base-color--white);
+  }
 }
