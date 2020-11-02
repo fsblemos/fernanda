@@ -34,3 +34,17 @@ a {
     --base-color--bg: var(--base-color--white);
   }
 }
+
+@keyframes flicker {
+  0% {
+    text-shadow: 2px 4px 5px var(--base-color--bg);
+  }
+  100% {
+    text-shadow: 2px 4px 5px var(--title-shadow-color);
+  }
+}
+
+#gatsby-focus-wrapper, #__gatsby {
+  height: 100vh;
+  width: 100vw;
+}
