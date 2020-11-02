@@ -44,7 +44,7 @@ const Avatar = styled.img`
   border-radius: 100%;
 `
 
-const Social = styled.section`
+const Social = styled.div`
   display: grid;
   grid-auto-columns: auto;
   grid-auto-flow: column;
@@ -77,17 +77,17 @@ export default function Home() {
           <Social>
             <SocialLink
               href="https://br.linkedin.com/in/fernandasblemos"
-              ariaLabel="Link para o Linkedin"
+              ariaLabel="Linkedin"
               svgComponent={SocialLink.Linkedin}
             />
             <SocialLink
               href="https://github.com/fsblemos"
-              ariaLabel="Link para o Github"
+              ariaLabel="Github"
               svgComponent={SocialLink.Github}
             />
             <SocialLink
               href="https://twitter.com/fsblemos"
-              ariaLabel="Link para o Twitter"
+              ariaLabel="Twitter"
               svgComponent={SocialLink.Twitter}
             />
           </Social>
