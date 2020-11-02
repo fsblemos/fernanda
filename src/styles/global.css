@@ -18,6 +18,9 @@ body {
   line-height: 1.5;
   background-color: var(--base-color--bg);
   color: var(--base-color--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
 }
 

@@ -8,22 +8,9 @@ const Container = styled.div`
   padding-right: 20px;
 `
 
-const Header = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-`
-
 export default function Layout({ children }) {
   return (
     <Container>
-      <Header>
-        <nav className="nav">
-          <a className="nav__link" href="/">Home</a>
-        </nav>
-      </Header>
       <main>
         {children}
       </main>
