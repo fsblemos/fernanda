@@ -58,7 +58,7 @@ export default function Home() {
     <Layout>
       <Helmet>
         <html lang="pt-br" />
-        <title>Início</title>
+        <title>Fernanda Sales Bittencourt de Lemos</title>
         <meta name="description" content="Olá! Meu nome é Fernanda. Sou desenvolvedora front-end e tech lead de Design System na Conta Azul." />
       </Helmet>
       <Article>
