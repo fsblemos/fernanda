@@ -76,6 +76,7 @@ export default function Home() {
       <Helmet>
         <html lang="pt-br" />
         <title>Fernanda Sales Bittencourt de Lemos</title>
+        <meta name="theme-color" content="#6A6EEC" />
         <meta name="description" content="Olá! Meu nome é Fernanda. Sou desenvolvedora front-end e tech lead de Design System na Conta Azul." />
       </Helmet>
       <Article>
