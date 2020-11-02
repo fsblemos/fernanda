@@ -27,6 +27,10 @@ const Header = styled.header`
   text-align: center;
   margin-bottom: 48px;
 
+  @media screen and (max-height: 540px) and (max-width: 580px) {
+    display: none;
+  }
+
   @media screen and (max-height: 540px) {
     font-size: 1.8em;
     margin-bottom: 0;
